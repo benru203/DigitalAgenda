@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Operations</string>
+    <string name="btn_calculator">Calculator</string>
+    <string name="result">Result</string>
+    <string name="NumberOne">Number one</string>
+    <string name="NumberTwo">Number two</string>
+
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+
+    <string-array name="operations">
+        <item>@string/addition</item>
+        <item>@string/subtraction</item>
+    </string-array>
+</resources>
