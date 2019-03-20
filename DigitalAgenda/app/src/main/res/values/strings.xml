@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">DigitalAgenda</string>
+    <string name="app_name">Digital Agenda</string>
+    <string name="create">Create Contact</string>
+    <string name="list">Lista de Contacts</string>
+
+    <string-array name="menu">
+        <item>@string/create</item>
+        <item>@string/list</item>
+    </string-array>
+
 </resources>
