@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         LV.setAdapter(Addapter);
 
         LV.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-            
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
