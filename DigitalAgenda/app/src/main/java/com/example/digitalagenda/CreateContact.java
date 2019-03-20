@@ -18,7 +18,7 @@ public class CreateContact extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.contact_list);
+        setContentView(R.layout.create_contact);
 
         Name = (EditText)findViewById(R.id.TxtName);
         LastName = (EditText)findViewById(R.id.TxtLastName);
