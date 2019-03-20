@@ -3,7 +3,7 @@
     <string name="create">Create Contact</string>
     <string name="list">Lista de Contacts</string>
 
-    <string-array name="menu">
+    <string-array name="Menu">
         <item>@string/create</item>
         <item>@string/list</item>
     </string-array>
