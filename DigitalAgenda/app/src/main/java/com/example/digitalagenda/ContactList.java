@@ -34,11 +34,11 @@ public class ContactList extends AppCompatActivity {
             TxtNoResults.setVisibility(View.INVISIBLE);
             LV.setVisibility(View.VISIBLE);
             for (int i = 0; i < Contacts.size(); i++) {
-                ContactNames.add(Contacts.get(i).getName());
+                ContactNames.add(Contacts.get(i).getName() + " " + Contacts.get(i).getLastName());
             }
         }
         ArrayAdapter<String> Adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,ContactNames);
-        
+        LV.setAdapter(Adapter);
         LV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

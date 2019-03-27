@@ -1,6 +1,6 @@
 package com.example.digitalagenda;
 
-import android.content.Intent;
+
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Switch;
-
-import java.util.ArrayList;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         Resources = this.getResources();
         Opc = Resources.getStringArray(R.array.Menu);
 
-        ArrayAdapter<String> Addapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,Opc);
-        LV.setAdapter(Addapter);
+        ArrayAdapter<String> Adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, Opc);
+        LV.setAdapter(Adapter);
 
         LV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
