@@ -35,9 +35,11 @@ public class MainActivity extends AppCompatActivity {
                 switch(position){
                     case 0:
                         In = new Intent(MainActivity.this, CreateContact.class);
+                        startActivity(In);
                         break;
                     case 1:
                         In = new Intent(MainActivity.this, ContactList.class);
+                        startActivity(In);
                         break;
                 }
             }
