@@ -32,19 +32,17 @@ public class MainActivity extends AppCompatActivity {
         LV.setAdapter(Addapter);
 
         LV.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                switch(position){
-                    case 0:
-                        In = new Intent(MainActivity.this, CreateContact.class);
-                        break;
-                    case 1:
-                        In = new Intent(MainActivity.this, ContactList.class);
-                        break;
-                }
+                 switch(position){
+                     case 0:
+                         In = new Intent(MainActivity.this, CreateContact.class);
+                         break;
+                     case 1:
+                         In = new Intent(MainActivity.this, ContactList.class);
+                         break;
+                 }
             }
-
         });
 
     }

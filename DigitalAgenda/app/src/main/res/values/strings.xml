@@ -8,6 +8,7 @@
     <string name="cell_phone">CellPhone</string>
     <string name="Save">Save</string>
     <string name="done">Saved Successfully</string>
+    <string name="no_records">No Records to Show</string>
 
     <string-array name="Menu">
         <item>@string/create</item>
