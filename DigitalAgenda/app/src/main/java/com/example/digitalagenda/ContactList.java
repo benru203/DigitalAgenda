@@ -43,7 +43,7 @@ public class ContactList extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 In = new Intent(ContactList.this,ContactDetail.class);
-                In.putExtra("postition",position);
+                In.putExtra("position",position);
                 startActivity(In);
             }
         });
